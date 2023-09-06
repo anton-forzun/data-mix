@@ -6,7 +6,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -21,6 +22,7 @@
     "@vee-validate/rules": "^4.11.3",
     "@vee-validate/yup": "^4.11.3",
     "pinia": "^2.0.0-rc.10",
+    "push-dir": "^0.4.1",
     "vee-validate": "^4.5.8",
     "yup": "^1.2.0"
   },
